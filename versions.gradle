@@ -1,0 +1,26 @@
+ext {
+    versions = [
+
+            // Build
+            compileSdk  : 27,
+            support     : '27.0.2',
+            minSdk      : 19,
+            targetSdk   : 27,
+
+            versionCode : 4,
+            versionName : '1.0.4',
+
+            gradlePlugin: '3.0.1',
+
+            kotlin      : '1.2.21',
+            anko        : '0.10.3',
+
+            dagger      : '2.13',
+
+            retrofit    : '2.3.0',
+
+            moxy        : '1.5.3',
+
+            glide        : '4.5.0'
+    ]
+}
